@@ -13,7 +13,7 @@ export const DEMO_BOTS: DemoBot[] = [
   {
     id: "1",
     avatar: "1f916",
-    name: "张子若的AI管家",
+    name: "张子若的GPT",
     botHello: "子若今天去哪里玩了?",
     context: [],
     modelConfig: {
@@ -25,11 +25,11 @@ export const DEMO_BOTS: DemoBot[] = [
     readOnly: true,
     hideContext: false,
   },
-  /*   {
+  {
     id: "2",
     avatar: "1f916",
-    name: "My Documents",
-    botHello: "Hello! How can I assist you today?",
+    name: "爸爸GPT",
+    botHello: "爸爸，妈妈在哪里?",
     context: [],
     modelConfig: {
       model: "gpt-4-1106-preview",
@@ -43,12 +43,12 @@ export const DEMO_BOTS: DemoBot[] = [
   {
     id: "3",
     avatar: "1f5a5-fe0f",
-    name: "Red Hat Linux Expert",
-    botHello: "Hello! How can I help you with Red Hat Linux?",
+    name: "妈妈GPT",
+    botHello: "妈妈，晚上吃什么?",
     context: [
       {
         role: "system",
-        content: TEMPLATE("Red Hat Linux Expert"),
+        content: TEMPLATE("Family Expert"),
       },
     ],
     modelConfig: {
@@ -61,7 +61,7 @@ export const DEMO_BOTS: DemoBot[] = [
     datasource: "redhat",
     hideContext: false,
   },
-  {
+  /*  {
     id: "4",
     avatar: "1f454",
     name: "Apple Watch Genius",

@@ -22,8 +22,8 @@ export function SideBar(props: { className?: string }) {
         <div className="flex flex-col flex-1">
           <div className="mb-5 flex justify-between gap-5 items-start">
             <div>
-              <Typography.H1>{Locale.Welcome.Title}</Typography.H1>
-              <div className="text-sm text-muted-foreground">
+              <Typography.H2>{Locale.Welcome.Title}</Typography.H2>
+              <div className="text-m text-muted-foreground">
                 {Locale.Welcome.SubTitle}
               </div>
             </div>

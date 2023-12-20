@@ -84,8 +84,8 @@ const en = {
     },
   },
   Store: {
-    DefaultBotName: "New Bot",
-    BotHello: "Hello! How can I assist you today?",
+    DefaultBotName: "New GPT",
+    BotHello: "孩子家长，今天有什么能帮到您?",
   },
   Copy: {
     Success: "Copied to clipboard",
@@ -106,10 +106,10 @@ const en = {
     },
   },
   Bot: {
-    Name: "Bot",
+    Name: "GPT",
     Page: {
-      Search: (count: number) => `Search Bot - ${count} bots`,
-      Create: "Create bot",
+      Search: (count: number) => `Search Bot - ${count} GPTs`,
+      Create: "Create GPT",
     },
     Item: {
       Edit: "Edit",
@@ -118,12 +118,12 @@ const en = {
       Share: "Share",
     },
     EditModal: {
-      Title: `Edit Bot`,
+      Title: `Edit GPT`,
       Clone: "Clone",
     },
     Config: {
-      Avatar: "Bot Avatar",
-      Name: "Bot Name",
+      Avatar: "GPT Avatar",
+      Name: "GPT Name",
       HideContext: {
         Title: "Hide Context Prompts",
         SubTitle: "Do not show in-context prompts in chat",
@@ -137,10 +137,9 @@ const en = {
   },
 
   Welcome: {
-    Title: "Chat LlamaIndex",
-    SubTitle: "Create chat bots that know your data",
-    Quote:
-      "“This tool has saved me countless hours of work and helped me apply AI features to my work faster than ever before.”",
+    Title: "神兽GPT",
+    SubTitle: "AI伴宝宝长大",
+    Quote: "“建立宝宝的健康档案，为宝宝量身定制的AI健康卫士.”",
     LoginLinkedinTitle: "Login with LinkedIn",
   },
 };

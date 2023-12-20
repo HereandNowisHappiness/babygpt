@@ -13,8 +13,8 @@ export const DEMO_BOTS: DemoBot[] = [
   {
     id: "1",
     avatar: "1f916",
-    name: "GPT-4 Vision Preview",
-    botHello: "Hello! How can I assist you today?",
+    name: "张子若的AI管家",
+    botHello: "子若今天去哪里玩了?",
     context: [],
     modelConfig: {
       model: "gpt-4-vision-preview",
@@ -25,7 +25,7 @@ export const DEMO_BOTS: DemoBot[] = [
     readOnly: true,
     hideContext: false,
   },
-  {
+  /*   {
     id: "2",
     avatar: "1f916",
     name: "My Documents",
@@ -102,7 +102,7 @@ export const DEMO_BOTS: DemoBot[] = [
     readOnly: true,
     datasource: "basic_law_germany",
     hideContext: false,
-  },
+  }, */
 ];
 
 export const createDemoBots = (): Record<string, Bot> => {
